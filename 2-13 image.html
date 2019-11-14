@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image</title>
+</head>
+<body style="background-image: url('./pics/bg.jpg'); background-repeat: no-repeat;">
+	<h1>Use Image in HTML Page</h1>
+	<div>
+		<p>The &#60img&#62 tag includes an image into the html page and change the width and height.</p>
+		<img src="pic1.jpg" alt="Image explanation" width="300px">
+		<img src="./pics/nike.jpg" height="300px">
+	</div>
+	<hr/>
+
+	
+	<div>
+		<p>The default way to set the horizontal alignment of image is to use 'align' property. The default alignment is to the left.</p>
+		<img src="./pics/nike.jpg" height="300px" >
+		<img src="./pics/nike.jpg" height="300px" align="right">
+	</div>
+	<hr/>
+
+	<div>
+		<p>In order to mix images and text into the layout together, you can also set the 'float' style to the &#60img&#62 tag.</p>
+		<p style="color: gray;"><img src="./pics/nike.jpg" height="150px" style="float: right;">Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. </p>
+		<p>If you want to change the vertical alignment of image and the text around it, try to set the 'vertical-align' of the image. But be careful when putting 'float' and 'vertical-align' together. It may not work as you wish. And it may only work with the first line of text.</p>
+		<p style="color: gray;"><img src="./pics/nike.jpg" height="150px" style="vertical-align: baseline;">
+		Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. Some text content. </p>
+		<p>So if you want some lines aligned to image bottom, it may look like this.</p>
+		<img src="./pics/nike.jpg" height="150px">
+		<div style="display: inline-block;">
+			<p style="color: gray;">Some text content.<br/>
+			Some text content.<br/>
+			Some text content.<br/>
+			Some text content.<br/>
+			</p>
+		</div>
+	</div>
+	<hr/>
+
+	<div>
+		<p>Images can also be used as a hyperlink. Just wrap the &#60a&#62 tag outside.</p>
+		<a href="https://www.baidu.com"><img src="./pics/nike.jpg" height="150px"></a>
+	</div>
+	<hr/>
+
+	<div>
+		<p>In case you want an image to be your webpage background, set the 'background-image' style of the &#60body&#62 tag using :url('imagename.jpg'). And you can also set the 'background-repeat' and 'background-position'. Howerver, be really careful with the image contrast to the content text.</p>
+		<p>On this page the background image is an example. The image itself is a seamless and the default setting of 'background-repeat' is 'repeat'. Try to change the setting to see the difference.</p>
+	</div>
+
+</body>
+</html>
