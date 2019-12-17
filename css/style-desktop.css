@@ -291,10 +291,11 @@
 
 	.BACKBLACK{
 		position: absolute;
+		
 		width: 60em;
-		height: 59.5em;
-		background-color: #000;
+		height: 39.3em;
+		background-color: #999d9c;
 		left: 0%;
-		top: 0%;
+		top: 30.56%;
 		z-index: -1;
 	}
